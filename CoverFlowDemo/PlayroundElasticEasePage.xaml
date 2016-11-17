@@ -11,7 +11,7 @@
             <DoubleAnimation Duration="0:0:1" To="-5.872" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="rectangle" d:IsOptimized="True"/>
             <DoubleAnimation Duration="0:0:1" To="231.927" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="rectangle" d:IsOptimized="True">
                 <DoubleAnimation.EasingFunction>
-                    <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="1"/>
+                    <ElasticEase EasingMode="EaseOut" Oscillations="1" Springiness="8"/>
                 </DoubleAnimation.EasingFunction>
             </DoubleAnimation>
         </Storyboard>
